@@ -1,0 +1,75 @@
+body {
+    /* background-color: red; */
+    background-image: url(./images/pexels-eberhardgross-2088203.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.badge {
+    width: 260px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 50%;
+}
+
+/* .info {
+    background-color: pink;
+} */
+
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    color: darkred;
+    font-size: 20px;
+    font-weight: lighter;
+}
+p {
+    color: blue;
+}
+
+#school {
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.badge img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+a {
+    color: crimson;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
