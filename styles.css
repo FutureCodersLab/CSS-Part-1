@@ -1,9 +1,9 @@
 body {
     /* background-color: red; */
-    background-image: url(./images/pexels-eberhardgross-2088203.jpg);
+    background-image: url(./images/hidden-leaf.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 55%;
 }
 .badge {
     width: 260px;
@@ -12,12 +12,17 @@ body {
     padding: 15px 25px;
     border: 2px solid black;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     position: relative;
     top: 50%;
+    transition: 0.3s ease all;
+}
+
+.badge:hover {
+    background-color: aliceblue;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
 }
 
 /* .info {
@@ -28,19 +33,31 @@ h1 {
     font-size: 28px;
     font-weight: bolder;
     font-style: italic;
+    transition: 0.3s ease all;
+}
+h1:hover {
+    color: darkblue;
+    font-size: 32px;
+    transform: translateY(-10px);
 }
 
 h2 {
-    color: darkred;
+    color: green;
     font-size: 20px;
     font-weight: lighter;
+    transition: 0.3s ease all;
+}
+h2:hover {
+    transform: scale(1.1);
 }
 p {
-    color: blue;
+    color: darkblue;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
-#school {
-    color: green;
+#quote {
+    color: crimson;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
@@ -51,17 +68,22 @@ p {
     height: 100px;
     object-fit: cover;
     border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+.badge img:hover {
+    transform: rotate(360deg);
 }
 
 a {
-    color: crimson;
+    color: purple;
     margin: 10px;
     text-decoration: none;
     font-size: 12px;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 a:visited {
-    color: purple;
+    color: darkgreen;
 }
 
 a:hover {
