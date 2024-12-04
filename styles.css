@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-position: center 55%;
 }
-.badge {
+div {
     width: 260px;
     background-color: white;
     margin: 100px auto;
@@ -20,7 +20,7 @@ body {
     transition: 0.3s ease all;
 }
 
-.badge:hover {
+div:hover {
     background-color: aliceblue;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
 }
@@ -41,13 +41,13 @@ h1:hover {
     transform: translateY(-10px);
 }
 
-h2 {
+span {
     color: green;
     font-size: 20px;
     font-weight: lighter;
     transition: 0.3s ease all;
 }
-h2:hover {
+span:hover {
     transform: scale(1.1);
 }
 p {
@@ -63,14 +63,15 @@ p {
     text-decoration: underline;
 }
 
-.badge img {
+div img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50px;
+    margin-top: 15px;
     transition: transform 0.3s ease;
 }
-.badge img:hover {
+div img:hover {
     transform: rotate(360deg);
 }
 
